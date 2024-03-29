@@ -7,7 +7,8 @@ static const char unknown_str[] = "NULL";
 
 static const struct arg args[] = {
 	/* function    format     argument */
-	{ cpu_perc,    "%s%% CPU | ",   NULL },	
-	{ ram_perc,    "%s%% RAM | ", NULL },
+	{ uptime,      "%s        ",   NULL },	 
+	{ cpu_perc,    "%s%%        ",   NULL },	
+	{ ram_perc,    "%s%%        ", NULL },
 	{ datetime,    "%s",      "%a %d %b  %l:%M%p" },
 };
